@@ -1,0 +1,179 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: black;
+	color: white;
+	width: 100%;
+	height:80px;
+}
+nav {
+	width: 100%;
+	margin-left: 250px;
+	padding-top: 30px;
+}
+a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	font-size: 1.1em;
+}
+a:hover {
+	font-size: 1.4em;
+}
+
+.search {
+	float: right;
+	margin-top:-30px;
+	margin-right: 240px;
+	padding: 8px;
+	padding-right: 30px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	color: black;
+}
+
+.search:focus {background-color: white; border: 1px solid black;}
+.search:hover {background-color: white; border: 1px solid black;}
+
+body {
+	background-image: url('https://github.com/Timpdse/Sharing/blob/main/istockphoto.jpg?raw=true');
+	background-repeat: no-repeat;
+	overflow: hidden;
+	width: 1550px;
+	height: 1550px;
+}
+
+.main {
+	height: 800px;
+	padding-top: 150px;
+
+}
+.content {
+	background-color: rgba(0, 50, 255, 0.1);
+	border: 2px solid transparent;
+	border-radius: 10px;
+	padding: 40px;
+	height: 400px;
+	width: 440px;
+	margin-left: 250px;
+	color: white;
+}
+.sign {
+	background-color: rgba(0, 80, 255, 0.05);
+	opacity: 0.8;
+	border: 2px solid transparent;
+	border-radius: 10px;
+	padding: 10px;
+	height: 460px;
+	width: 500px;
+	position: absolute;
+	top: 230px;
+	left: 771px;
+	color: white;
+	
+}
+
+.title {
+	border-bottom: 4px solid white;
+	margin-top: 10px;
+	font-size: 2em;
+	width: 200px;
+	margin: -5px;
+	transition: font-size 0.8s, width 0.8s;
+}
+
+.title span {
+	color: red;
+	font-size: 2em;
+	transition: font-size 0.8s, width 0.8s;
+}
+.title:hover {
+	border-bottom: 4px solid red;
+	font-size: 2.4em;
+	width: 90px;
+}
+.title span:hover {
+	color: red;
+	font-size: 2.4em;
+}
+
+.welcome {
+	padding-top: 120px;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h5 {
+	font-size: 1em;
+}
+
+
+form {
+	margin: 80px;
+	margin-top: 140px;
+	border: 1px solid transparent;
+    color: white;
+}
+
+.head {
+	color: white;
+	font-size: 2em;
+	padding-left: 35%;
+}
+.in {
+	padding: 10px;
+	border-bottom: 3px solid white;
+	color: white;
+}
+
+input {
+	background-color: transparent;
+	border: 1px solid transparent;
+	padding-left: -100px;
+	color: white;
+}
+
+#inp {
+	margin-left: 10px;
+	padding: 10px;
+}
+#inp:focus {
+	background-color: transparent;
+	border: 1px solid transparent;
+}
+
+.forgot {
+	position: relative;
+	right: -70px;
+}
+
+.button {
+	border: 1px solid transparent;
+	padding: 10px;
+	width: 100%;
+	border-radius: 8px;
+	background-color: #e91e63;
+}
+
+.signUP {
+	position: relative;
+	left: 50px;
+}
+
+i {
+	padding: 5px;
+	padding-left: 20px;
+	color: white;
+}
+
+#ic1 {
+	color: white;
+	position: absolute;
+	top: 25px;
+	right: 240px;
+}
